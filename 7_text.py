@@ -14,10 +14,10 @@ pygame.display.set_caption("Nado Game") # 게임 이름
 clock = pygame.time.Clock()
 
 # 배경 이미지 불러오기
-background = pygame.image.load("C:/Users/Administrator/Desktop/alexander/pygame_basic/background.png")
+background = pygame.image.load("C:/Users/ahing/Desktop/coding/python_game/background.png")
 
 # 캐릭터(스프라이트) 불러오기
-character = pygame.image.load("C:/Users/Administrator/Desktop/alexander/pygame_basic/character.png")
+character = pygame.image.load("C:/Users/ahing/Desktop/coding/python_game/character.png")
 character_size = character.get_rect().size # 이미지의 크기를 구해옴
 character_width = character_size[0] # 캐릭터 가로 크기
 character_height = character_size[1] # 캐릭터 세로 크기
@@ -32,7 +32,7 @@ to_y = 0
 character_speed = 0.6
 
 # 적 enemy 캐릭터
-enemy = pygame.image.load("C:/Users/Administrator/Desktop/alexander/pygame_basic/enemy.png")
+enemy = pygame.image.load("C:/Users/ahing/Desktop/coding/python_game/enemy.png")
 enemy_size = character.get_rect().size # 이미지의 크기를 구해옴
 enemy_width = character_size[0] # 캐릭터 가로 크기
 enemy_height = character_size[1] # 캐릭터 세로 크기
@@ -47,6 +47,7 @@ total_time = 10
 
 # 시작 시간 정보
 start_ticks = pygame.time.get_ticks() # 시작 tick을 받아옴
+
 
 # 이벤트 루프
 running = True # 게임이 진행중인가?
